@@ -7,7 +7,9 @@ No scripting or programming experience is required.
 
 # usage:
 * Log into your PiAware device.
-* Run:`wget -q -O - https://raw.githubusercontent.com/palmerit/piaware-flightradar24/master/install.sh | sudo bash`
+* `wget https://raw.githubusercontent.com/palmerit/piaware-flightradar24/master/install.sh`
+* `chmod +x install.sh`
+* `sudo ./install.sh`
 * wait for the script to finish
 
 Running the above command multiple times will cleanup and reinstall the feeder software. I will keep the script updated for the latest versions, so the above command is also useful to perform upgrades.
